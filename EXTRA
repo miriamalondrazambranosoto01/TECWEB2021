@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<!--
+This is a starter template page. Use this page to start your new project from
+scratch. This page gets rid of all links and provides the needed markup only.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Electivas</title>
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+</head>
+<body class="hold-transition sidebar-mini">
+<div class="wrapper">
+
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="index3.html" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="#" class="nav-link">Contact</a>
+      </li>
+    </ul>
+	<!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            <section class="content-header">
+                <div class="container-fluid">
+                    <div class="row mb-2">
+                        <div class="col-sm-6">
+                            <h1>Mantenimientos de alumnos </h1>
+                        </div>
+                        <div class="col-sm-6">
+                            <ol class="breadcrumb float-sm-right">
+                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                <li class="breadcrumb-item active">DataTables</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div><!-- /.container-fluid -->
+            </section>
+
+            <!-- Main content -->
+            <section class="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+
+
+                            <div class="card">
+                                <div class="card-header">
+                                    <h3 class="card-title">Alta de alumnos</h3>
+                                    <button type="button" class="btn btn-success" data-toggle="modal"
+                                        data-target="#modal-lg">
+                                        Nuevo
+                                    </button>
+                                </div>
+                                <!-- /.card-header -->
+                                <div class="card-body">
+                                    <table id="example1" class="table table-bordered table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>Programa academico</th>
+                                                <th>Nombre </th>
+                                                <th>Acciones</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td> Sistemas computacionales</td>
+                                                <td>Jung Hoseok
+                                                </td>
+                                                
+                                                <td>
+                                                    <a class="btn btn-primary btn-sm" href="#">
+                                                        <i class="fas fa-folder">
+                                                        </i>
+                                                        View
+                                                    </a>
+                                                    <a class="btn btn-info btn-sm" href="#">
+                                                        <i class="fas fa-pencil-alt">
+                                                        </i>
+                                                        Edit
+                                                    </a>
+                                                    <a class="btn btn-danger btn-sm" href="#">
+                                                        <i class="fas fa-trash">
+                                                        </i>
+                                                        Delete
+                                                    </a>
+
+                                                </td>
+
+                                            </tr>
+                                            <tr>
+                                                <td> Mecatronica</td>
+                                                <td> Park Jimin
+                                                </td>
+                                               
+                                                <td>
+                                                    <a class="btn btn-primary btn-sm" href="#">
+                                                        <i class="fas fa-folder">
+                                                        </i>
+                                                        View
+                                                    </a>
+                                                    <a class="btn btn-info btn-sm" href="#">
+                                                        <i class="fas fa-pencil-alt">
+                                                        </i>
+                                                        Edit
+                                                    </a>
+                                                    <a class="btn btn-danger btn-sm" href="#">
+                                                        <i class="fas fa-trash">
+                                                        </i>
+                                                        Delete
+                                                    </a>
+
+                                                </td>
+
+                                            </tr>
+                                            <tr>
+                                                <td> Mecatronica</td>
+                                                <td>Min yoongi
+                                                </td>
+                                             
+                                                <td>
+                                                    <a class="btn btn-primary btn-sm" href="#">
+                                                        <i class="fas fa-folder">
+                                                        </i>
+                                                        View
+                                                    </a>
+                                                    <a class="btn btn-info btn-sm" href="#">
+                                                        <i class="fas fa-pencil-alt">
+                                                        </i>
+                                                        Edit
+                                                    </a>
+                                                    <a class="btn btn-danger btn-sm" href="#">
+                                                        <i class="fas fa-trash">
+                                                        </i>
+                                                        Delete
+                                                    </a>
+
+                                                </td>
+
+                                            </tr>
+                                            <tr>
+                                                <td> Ambiental</td>
+                                                <td>kim seokjin
+                                                </td>
+                                                
+                                                <td>
+                                                    <a class="btn btn-primary btn-sm" href="#">
+                                                        <i class="fas fa-folder">
+                                                        </i>
+                                                        View
+                                                    </a>
+                                                    <a class="btn btn-info btn-sm" href="#">
+                                                        <i class="fas fa-pencil-alt">
+                                                        </i>
+                                                        Edit
+                                                    </a>
+                                                    <a class="btn btn-danger btn-sm" href="#">
+                                                        <i class="fas fa-trash">
+                                                        </i>
+                                                        Delete
+                                                    </a>
+
+                                                </td>
+
+                                            </tr>
+                                        </tbody>
+                                        
+                                    </table>
+                                    <div class="modal fade" id="modal-lg">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h4 class="modal-title">Alta de alumnos</h4>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+												
+
+                                                <div class="modal-body">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <div class="form-group">
+                                                                <label>Nombre</label>
+                                                                <input type="text" class="form-control"
+                                                                    id="input_longitud_1"
+                                                                    placeholder="Digite nombre de la actividad">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+													 <div class="row">
+                                                        <div class="col-12">
+                                                            <div class="form-group">
+                                                                <label>Apellido paterno</label>
+                                                                <input type="text" class="form-control"
+                                                                    id="input_longitud_1"
+                                                                    placeholder="Digite nombre de la actividad">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+													 <div class="row">
+                                                        <div class="col-12">
+                                                            <div class="form-group">
+                                                                <label>Apellido materno</label>
+                                                                <input type="text" class="form-control"
+                                                                    id="input_longitud_1"
+                                                                    placeholder="Digite nombre de la actividad">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-6">
+                                                            <div class="form-group">
+                                                                <label>Fecha de Inicio</label>
+                                                                <input type="text" class="form-control"
+                                                                    id="input_longitud_2">
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label>Horas</label>
+                                                                <input type="number" class="form-control"
+                                                                    id="input_longitud_4" value="0" min="0">
+                                                            </div>
+
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="form-group">
+                                                            <label for="exampleInputFile">Archivo(solo una constancia y
+                                                                en PDF)</label>
+                                                            <div class="input-group">
+                                                                <div class="custom-file">
+                                                                    <input type="file" class="custom-file-input"
+                                                                        id="exampleInputFile">
+                                                                    <label class="custom-file-label"
+                                                                        for="exampleInputFile">constancias 1.pdf</label>
+                                                                </div>
+                                                                <div class="input-group-append">
+                                                                    <span class="input-group-text">Upload</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    </div>
+                                                    <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="form-group">
+                                                            <label>Observaciones</label>
+                                                            <textarea class="form-control" rows="6"
+                                                                placeholder="Ingrese las observaciones que sean necesarias"></textarea>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="modal-footer justify-content-between">
+                                                <button type="button" class="btn btn-default"
+                                                    data-dismiss="modal">Cancelar</button>
+                                                <button type="button" class="btn btn-success">Guardar</button>
+                                            </div>
+                                        </div>
+                                        <!-- /.modal-content -->
+                                    </div>
+                                    <!-- /.modal-dialog -->
+                                </div>
+                                <!-- /.modal -->
+                            </div>
+                            <!-- /.card-body -->
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                    <!-- /.col -->
+                </div>
+                <!-- /.row -->
+        </div>
+        <!-- /.container-fluid -->
+        </section>
+        <!-- /.content -->
+    </div>
+    <!-- /.content-wrapper -->
+    <footer class="main-footer">
+        <div class="float-right d-none d-sm-block">
+            <b>Version</b> 3.1.0
+        </div>
+        <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights
+        reserved.
+    </footer>
+
+    <!-- Control Sidebar -->
+    <aside class="control-sidebar control-sidebar-dark">
+        <!-- Control sidebar content goes here -->
+    </aside>
+    <!-- /.control-sidebar -->
+    </div>
+    <!-- ./wrapper -->
+
+    <!-- jQuery -->
+    <script src="../plantilla/plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="../plantilla/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- DataTables  & Plugins -->
+    <script src="../plantilla/plugins/datatables/jquery.dataTables.min.js"></script>
+    <script src="../plantilla/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+    <script src="../plantilla/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+    <script src="../plantilla/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+    <script src="../plantilla/plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
+    <script src="../plantilla/plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
+    <script src="../plantilla/plugins/jszip/jszip.min.js"></script>
+    <script src="../plantilla/plugins/pdfmake/pdfmake.min.js"></script>
+    <script src="../plantilla/plugins/pdfmake/vfs_fonts.js"></script>
+    <script src="../plantilla/plugins/datatables-buttons/js/buttons.html5.min.js"></script>
+    <script src="../plantilla/plugins/datatables-buttons/js/buttons.print.min.js"></script>
+    <script src="../plantilla/plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="../plantilla/dist/js/adminlte.min.js"></script>
+    <!-- AdminLTE for demo purposes -->
+    <script src="../plantilla/dist/js/demo.js"></script>
+    <!-- Page specific script -->
+    <script>
+        $(function () {
+            $("#example1").DataTable({
+                "responsive": true, "lengthChange": false, "autoWidth": false,
+                "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+            }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
+        });
+    </script>
+</body>
+
+</html>
+
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto">
+      <!-- Navbar Search -->
+      <li class="nav-item">
+        <a class="nav-link" data-widget="navbar-search" href="#" role="button">
+          <i class="fas fa-search"></i>
+        </a>
+        <div class="navbar-search-block">
+          <form class="form-inline">
+            <div class="input-group input-group-sm">
+              <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
+              <div class="input-group-append">
+                <button class="btn btn-navbar" type="submit">
+                  <i class="fas fa-search"></i>
+                </button>
+                <button class="btn btn-navbar" type="button" data-widget="navbar-search">
+                  <i class="fas fa-times"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </li>
+<!-- SidebarSearch Form -->
+        <div class="form-inline">
+          <div class="input-group" data-widget="sidebar-search">
+            <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
+            <div class="input-group-append">
+              <button class="btn btn-sidebar">
+                <i class="fas fa-search fa-fw"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sidebar Menu -->
+        <nav class="mt-2">
+          <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+            <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+            <li class="nav-item">
+              <a href="dashboard.html" class="nav-link">
+                <i class="nav-icon far fa-image"></i>
+                <p>
+                  Inicio
+                </p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="desglose-creditos.html" class="nav-link">
+                <i class="nav-icon far fa-image"></i>
+                <p>
+                  Desglose de créditos
+                </p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="alta-constancias.html" class="nav-link active">
+                <i class="nav-icon far fa-image"></i>
+                <p>
+                  Alta de Constancias
+                </p>
+              </a>
+            </li>
+			 <li class="nav-item">
+              <a href="alta-alumnos.html" class="nav-link">
+                <i class="nav-icon far fa-image"></i>
+                <p>
+                  Alta de alumnos
+                </p>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <!-- /.sidebar-menu -->
+      </div>
+      <!-- /.sidebar -->
+    </aside>
+
+    
